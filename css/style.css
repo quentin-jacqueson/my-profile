@@ -1,0 +1,116 @@
+@import url("components/banner.css");
+
+body {
+	background-color: rgb(230, 230, 230);
+	color: black;
+	font-family: 'Slabo 35px', serif;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+	font-weight: bolder;
+	margin: 0px;
+}
+
+h1, h2 {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 22px;
+	color: darkred;
+}
+
+a {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 800;
+	font-size: 15.5px;
+	text-decoration: none;
+	color: darkblue;
+	}
+
+a:hover {
+	color: black;
+	}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+	}
+.img-circle {
+	border-radius: 50%;
+	}
+.btn-blue {
+	background: darkblue;
+	color: white; 
+	padding: 10px 15px;
+	}
+.btn-blue:hover {
+	background: darkblue;
+	color: darkred;
+	} 
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	}
+.list-inline i {
+	margin-top: 40px;
+	font-size: 40px;
+	}
+.list-inline i:hover {
+	color: darkred;
+	}
+
+#introduction p {
+	margin-bottom: 40px;
+	font-weight: bolder;
+	font-size: 20px;
+	color: #ffd700;
+	text-align: center;
+	}
+
+#introduction h1 {
+	margin-top: 80px;
+	font-weight: bolder;
+	font-size: 40px;
+	color: #B22222; 
+	text-align: center;
+	}
+
+.img-circle {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.banner {
+	width: cover;
+	margin: 40px auto;
+	}
+
+@media (max-width: 960px) {
+	.banner {
+    width: 700px;}
+	.container {
+    width: 700px;
+  	}
+}
+
+@media (max-width: 720px) {
+	.banner {
+    width: 500px;}
+	.container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+	.banner {
+    width: 300px;}
+	.container {
+    width: 300px;
+  }
+}
